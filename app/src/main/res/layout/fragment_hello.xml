@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="010-1234-5678"
+        android:text="안녕? 방가방가!"
         android:textSize="20sp"/>
 
 </LinearLayout>

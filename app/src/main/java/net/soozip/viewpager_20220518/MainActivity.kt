@@ -28,5 +28,8 @@ class MainActivity : AppCompatActivity() {
 
         //재사용성 억제 > 한번 만들어둔 프래그먼트 객체들을 유지.
         mainViewPager.offscreenPageLimit = 3
+
+
+        mainTabLayout.setupWithViewPager(mainViewPager)
     }
 }
